@@ -1,0 +1,772 @@
+*{
+	box-sizing: border-box;
+
+}
+.portfolio{
+	font-family: Sans-serif;
+	background-color:red ;
+	color:white;
+	font-weight: bolder;
+}
+.line1{
+	width:30px;
+	padding: 3px;
+	margin: 1px;
+	background-color: black;
+	height: auto;
+}
+.menu{
+	height: 30px;
+	width: 30px;
+	visibility: hidden;
+	border: none;
+	background-color: white;
+	display: block;
+}
+.kaman a{
+	color:black;
+	padding:8px;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+}
+.kaman a:hover{
+		color:blue;
+		background-color: ;
+		border: 1px solid black;
+	}
+body{
+	font-family:  ;
+	background-color: ;
+
+}
+.head{
+	width: 100%;
+
+}
+/*
+nav ul{
+	list-style-type: none;
+	
+
+}
+nav ul li{
+	float:left;
+	padding: 10px;
+	font-size: 20px;
+	background-color: ;
+	opacity:;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 15px;
+}
+*/
+nav{
+	display: flex;
+	padding:0px;
+	margin:px;
+	flex-wrap: wrap;
+	background-color: ;
+	border-bottom: 2px solid orange;
+	border-radius: 20px;
+
+
+
+}
+nav div{
+	padding:15px;
+	background-color: ;
+	width: ;
+
+}
+nav a{
+	padding: 10px;
+	font-size: 20px;
+	color:black;
+}
+nav a:link{
+	color:black;
+}
+nav a:hover{
+	color:orange;
+	background-color:;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	text-decoration:;
+	border: 1px solid black;
+	font-weight: bolder;
+}
+nav a:visited {
+	color:black;
+
+}
+.fluid-container{
+	display:flex;
+	flex-wrap: flex;
+	flex-direction: row;
+	width:100%;
+	height: ;
+}
+.profile{
+	margin-top:10px;
+	width:70%;
+	height: ;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	justify-content: center;
+	opacity: ;
+	background-color: ;
+	text-align: left;
+}
+.name{
+	padding-left:30px;
+	padding-top:20px;
+	margin-top:40px;
+	font-size:50px;
+	font-family: Calibri;
+	font-weight: bolder;
+	color:red;
+	opacity:0.7;
+	background-color: ;
+	text-align: left;
+}
+.skills{
+	padding:50px;
+	margin-right:5px;
+	margin-left:50px;
+	font-family: ;
+	color:gray;
+	font-weight: ;
+	font-size: 25px;
+	font-weight: ;
+	background-color: ;
+	text-align: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	align-items: ;
+	align-content: center;
+}
+.skills:hover{
+	background-color: ;
+	color:;
+}
+.explainer{
+	background-color: ;
+	color:black;
+	font-style: italic;
+	padding:20px;
+	opacity: 1.0;
+	font-family: ;
+	font-size: 25px;
+}
+/*
+ol{
+	background-color: lightcoral;
+	color:;
+	width: 100%;
+}
+ol li{
+	display:block;
+	float: left;
+	padding:10px;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: ;
+
+}
+li a:link{
+	color:lightcoral;
+}
+li a:hover{
+	color:lightcoral;
+	background-color: ;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+li a:active{
+	color:green;
+}
+*/
+.container{
+	width:100%;
+	display: flex;
+	flex-wrap: flex;
+	flex-direction: row;
+}
+.languages{
+	flex: 50%;
+	float: ;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	padding-top: 40px;
+	font-weight: ;
+	color:black;
+}
+.side-text{
+	flex:50%;
+	float: ;
+	color:black;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: ;
+	background-color: ;
+	padding-top: 10px;
+	border: ;
+	text-align: center;
+}
+.containment{
+	width:90%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.other-skills{
+	flex: 30%;
+	color:black;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: ;
+	border: ;
+	margin-left: 30px;}
+
+::placeholder{
+	text-align: center;
+}
+input[type=text]{
+	width:500px;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+.Software{
+	flex:50%;
+	float: ;
+	color:black;
+	font-family: calibri;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	font-weight: ;
+	padding-left: 10px;
+}
+.project{
+	margin-top:0px;
+	width:100%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-left: 0px;
+}
+.image{
+	background-image: url("");
+	height: 100%;
+	flex: 50%;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+}
+.side {
+	flex: 50%;
+	height: 100%;
+	color:black;
+	background-color: ;
+}
+
+.fixed-position{
+	position: fixed;
+	bottom: 0px;
+
+}
+.fixed-positionn{
+	position: fixed;
+	top: 200px;
+	left: 0px;
+
+}
+.system-images{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img1,.img2{
+	width: %;
+}
+
+/* animation section */
+.hilla
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration:2s;
+		background-color: ;
+		animation-delay: ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:3s ;
+		position: relative;
+		animation-direction:;
+
+	}
+	.hillaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:5s ;
+		position: relative;
+		transition:  ;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:7s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:9s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.imagess{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+
+
+
+	/*
+	images styling begins here
+	*/
+	div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.experience{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: row;
+	background-color: ;
+}
+.ict{
+flex: 33%;
+}
+.pet{
+flex: 33%;
+}
+.red{
+flex: 33%;
+}
+
+.foot{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: row;
+}
+.details{
+	flex:50%;
+}
+.linkss{
+	flex:50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+	/*
+	images styling ends here
+	*/
+
+
+
+
+
+
+	@keyframes {
+		from{
+			color:white;
+			right: -80px;
+			background-color: lightcoral;
+
+		}
+		to{
+			color: black;
+			right: -10px;
+
+		}
+	}
+
+
+
+/*.......................................................responsive design start.............................................................................*/
+
+
+@media only screen and (max-width: 1100px) {
+	.fluid-container{
+  	flex-direction: column;
+  	margin-top: -200px;
+  }
+  .menu{
+		visibility: hidden;
+	}
+  .profile{
+  	width:100%;
+  }
+  .ski{
+  	margin: 2px;
+  }
+   nav {
+		
+		visibility: hidden;
+	}
+	.head{
+		
+	}
+	.menu{
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
+	}
+.skills{
+  	width:100%;
+  	font-size: 25px;
+  	text-align: center;
+  	justify-content: center;
+  	padding-left: 0px;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  
+  /*#about{
+  	margin-top: 300px;
+  	font-size: ;
+  }*/
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .fluid-container{
+  	flex-direction: column;
+  	margin-top: -200px;
+  }
+  .menu{
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
+	}
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 25px;
+  	text-align: center;
+  	justify-content: center;
+  	padding-left: 0px;
+  	left: 10px;
+  	margin-right: 5px;
+  }
+  .information{
+  	width: 100%;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  }
+  .side-text{
+  	justify-content: center;
+  	  }
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: 100%;
+  	text-align: center;
+  }
+ 
+  .Software{
+  	width: 90%;
+  	text-align: center;
+  }
+
+  .project{
+  	flex-direction: column;
+  	margin: ;
+  }
+  .image{
+  	width:100%;
+
+  }
+  
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  }
+  
+  .img1,.img2{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.mimi{
+	width: 200px;
+	height: 200px;
+
+
+}
+.experience{
+			flex-direction: column;
+			padding-left: 0px;
+	}
+	.foot{
+		flex-direction: column;
+	}
+}
+/*
+@media only screen and (max-width: 1030px){
+.mimi{
+	width: 200px;
+	height: 200px;
+}}*/
+@media only screen and (max-width: 500px) {
+	
+	.intro{
+		font-size: 20px;
+		text-align: center;
+		padding:2px;
+		margin: 0px;
+
+	}
+  nav {
+		
+		visibility: hidden;
+	}
+	.head{
+		
+	}
+	.menu{
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
+	}
+	.portfolio{
+		font-size: 25px;
+	}
+	nav{
+		padding: 0px;
+		margin: 0px;
+		border: none;
+		text-align: center;
+		background-color: ;
+		color:;
+	}
+	div a{
+		color:white;
+	}
+	.maill{
+		font-size: 20px;
+		width:100%;
+	}
+	.explainer{
+		margin: :0px;
+		padding: 5px;
+		text-align: center;
+	}
+  .fluid-container{
+  	flex-direction: column;
+  	margin-top: -260px;
+  }
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 25px;
+  	text-align: center;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  .information{
+  	width: 100%;
+  }
+  .myinfor .information p{
+  	text-align: left;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  	padding: 5px;
+  	
+  }
+  .side-text{
+  	width: 100%;
+  	padding: 10px;
+  }
+  
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: ;
+  	padding: ;
+  	text-align: center;
+  	margin: 0px;
+  	border: ;
+  }
+  .Software{
+  	width: 100%;
+  	justify-content: center;
+  	padding: 5px;
+  	margin: 10px;
+  	text-align: center;
+  }
+
+  .project{
+  	flex-direction: column;
+  }
+  .image {
+  	width:100%;
+  }
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  	text-align: center;
+  }
+  
+  .train,.mwalimu{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.mimi{
+	width: 200px;
+	height: 200px;
+}
+input[type=text]{
+	width:100%;
+}
+.experience{
+			flex-direction: column;
+	}
+	.foot{
+		flex-direction: column;
+	width:100%;
+	}
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
